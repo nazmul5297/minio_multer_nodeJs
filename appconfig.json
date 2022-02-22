@@ -1,10 +1,10 @@
 {
   "port": 8081,
   "db": {
-    "user": "minio",
+    "user": "postgres",
     "host": "localhost",
-    "database": "user",
-    "password": "1234",
+    "database": "minio",
+    "password": "123456",
     "port": 5432
   },
 
