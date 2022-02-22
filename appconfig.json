@@ -9,10 +9,10 @@
   },
 
   "minio": {
-    "endPoint": "http://192.168.88.127:9001/",
+    "endPoint": "192.168.0.115",
     "port": 9000,
     "accessKey": "admin",
     "secretKey": "password",
-    "bucketName": "groom-bride-picture"
+    "bucketName": "user-info"
   }
 }

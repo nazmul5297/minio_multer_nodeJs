@@ -2,7 +2,8 @@ import fs from "fs";
 import path from "path";
 // import { PGCredentials } from "../db/base/base-connection.db";
 
-const configPath = path.resolve(__dirname + "/../../appconfig.json");
+const configPath = path.resolve() + "/appconfig.json";
+
 export const appConf = JSON.parse(fs.readFileSync(configPath, "utf-8"));
 
 export function getPort() {
