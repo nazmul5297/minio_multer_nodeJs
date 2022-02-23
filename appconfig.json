@@ -1,15 +1,15 @@
 {
-  "port": 8081,
+  "port": 5000,
   "db": {
     "user": "postgres",
     "host": "localhost",
-    "database": "minio",
-    "password": "123456",
+    "database": "user",
+    "password": "1234",
     "port": 5432
   },
 
   "minio": {
-    "endPoint": "192.168.0.115",
+    "endPoint": "192.168.88.127",
     "port": 9000,
     "accessKey": "admin",
     "secretKey": "password",
